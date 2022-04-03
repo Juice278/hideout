@@ -33,9 +33,7 @@ export const App = () => (
           <Button as="a" href="/about" colorScheme='twitter' variant='ghost'> About </Button>
         </Stack>
         </Box>
-
-        <Image width="300" height="300" src=""></Image>
-
+    
      <Flex mb="50" alignItems="center" justify="center">
      <Heading>
        Welcome to Hideout.one
