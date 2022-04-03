@@ -17,7 +17,6 @@ const formBackground = useColorModeValue("gray.200", "gray.700")
 return (
   <ChakraProvider theme={theme}>
     <ColorModeSwitcher justifySelf="flex-end" />
-
   <Flex height="100vh" alignItems="center" justifyContent="center">
    <Flex direction="column" background={formBackground} p={12} rounded={6}>
      <Heading mb={6}>log in</Heading>
